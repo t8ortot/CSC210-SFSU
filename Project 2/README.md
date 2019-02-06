@@ -4,7 +4,7 @@ This program is meant to print a range of target and maximum heart rates, depend
 
 The maximum is calculated like so: (max = 220 - age)
 
-The target range is calculated as (lower bound %)*(max) and (upper bound %)*(max)
+The target range is calculated as (lower bound %)(max) and (upper bound %)(max)
 
 Sample Output:
 
