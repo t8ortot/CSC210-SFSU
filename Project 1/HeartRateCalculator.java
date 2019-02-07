@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author James Clark
  * @version 9/15/16
  */
-public class Project1JamesClark {
+public class HeartRateCalculator {
 
     /**
      * Compute the user's maximum heart rate

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @author James Clark
  * @version 9/26/2016
  */
-public class JamesClarkProject2 {
+public class HeartRateTable {
 
     /**
      * @param args the command line arguments

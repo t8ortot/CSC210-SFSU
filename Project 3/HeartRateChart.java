@@ -7,7 +7,7 @@ package jamesclarkproject3;
  * @author James Clark
  * @version 10/3/16
  */
-public class JamesClarkProject3 {
+public class HeartRateChart {
 
     /**
      * @param args the command line arguments
@@ -23,36 +23,36 @@ public class JamesClarkProject3 {
         //printing x-axis and y-axis labels
         System.out.print("   ");
 
-        for (int Age = MIN_AGE; Age <= MAX_AGE; Age += 5) {
+        for (int age = MIN_AGE; age <= MAX_AGE; age += 5) {
             //loop continues from ages 15 to 90 in intervals of 5
 
-            System.out.print(" " + Age);
+            System.out.print(" " + age);
             //prints x-axis
         }
 
-        for (int HR = MIN_HEARTRATE; HR <= MAX_HEARTRATE; HR += 5) {
+        for (int heartRate = MIN_HEARTRATE; heartRate <= MAX_HEARTRATE; heartRate += 5) {
             //loop continues from 60 BPM to 175 BPM in intervals of 5
             System.out.println(" ");  
-            System.out.printf("%3d", HR);
+            System.out.printf("%3d", heartRate);
             //prints y-axis
             System.out.print("  ");
 
             for (int starAge = 15; starAge <= 90; starAge += 5) {
                 //loop continues from 15 to 90 in intervals of 5
 
-                int Star = 220 - starAge;
+                int star = 220 - starAge;
                 //calculating age-specific maximum heart rate
-                float minStar = (float) (Star * 0.5);
+                float minStar = (float) (star * 0.5);
                 //calculating minimum target
-                float maxStar = (float) (Star * 0.85);
+                float maxStar = (float) (star * 0.85);
                 //calculating maximum target
 
-                if (HR >= minStar && HR <= maxStar) {
+                if (heartRate >= minStar && heartRate <= maxStar) {
                     //if the heart rate is in the target zone
                     System.out.print("*  ");
                     //print a star
 
-                } else if (HR > Star) {
+                } else if (heartRate > star) {
                     //if the heart rate is above the maximum
                     System.out.print("+  ");
                     //print a plus
