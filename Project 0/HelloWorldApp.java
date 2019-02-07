@@ -1,7 +1,6 @@
 package helloworldapp;
 
 /**
- *
  * @author James Clark
  */
 public class HelloWorldApp {
