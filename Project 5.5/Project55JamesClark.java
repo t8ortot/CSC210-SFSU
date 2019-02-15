@@ -27,8 +27,8 @@ public class Project55JamesClark {
         }
         /* find ratio */
         /* calculate pi */
-        mypi = 4 * numInside / (float) N;
-        System.out.println("Pi = " + mypi);
+        myPi = 4 * numInside / (float) N;
+        System.out.println("Pi = " + myPi);
     }
     
     /**
