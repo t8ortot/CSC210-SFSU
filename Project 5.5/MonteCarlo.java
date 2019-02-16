@@ -6,12 +6,12 @@ package project5.pkg5jamesclark;
  * @author James Clark
  * @version 10/30/16
  */
-public class Project55JamesClark {
+public class MonteCarlo {
 
     public static void main(String[] args) {
         final int N = 5000;
         int numInside = 0;
-        double currX, currY, radius, mypi;
+        double currX, currY, radius, myPi;
 
         for (int i = 0; i < N; i++) {
             /* make a throw: get new x and new y */

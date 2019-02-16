@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package project8jamesclark;
+package ConwayGameofLife;
 
 import java.util.Scanner;
 
@@ -11,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Jimmy
  */
-public class Project8JamesClark {
+public class ConwayGameofLife {
 
     /**
      *
@@ -42,11 +37,11 @@ public class Project8JamesClark {
             y = input.nextInt();
         }
 
-        System.out.print("Please enter the number of timesteps (0 < steps ≤ 20): ");
+        System.out.print("Please enter the number of timesteps (0 < steps <= 20): ");
         int n = input.nextInt();
         while (n <= 0 || n > 20) {
             System.out.println("Sorry, the number of time steps you selected is invalid.");
-            System.out.print("Please enter a different number of time steps (0 < steps ≤ 20): ");
+            System.out.print("Please enter a different number of time steps (0 < steps <= 20): ");
             n = input.nextInt();
         }
 

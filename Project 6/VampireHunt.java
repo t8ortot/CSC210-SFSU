@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package project6jamesclark;
+package VampireHunt;
 
 import java.util.Scanner;
 
@@ -13,7 +8,7 @@ import java.util.Scanner;
  * @author James Clark
  * @version 11/6/16
  */
-public class Project6JamesClark {
+public class VampireHunt {
 
     /**
      * @param args the command line arguments
@@ -82,9 +77,9 @@ public class Project6JamesClark {
                 //Extra Credit
                 System.out.println("~^~^~^~^~^~^~^~^~^~^~^~^~^~");
                 //Prints legend for map
-                System.out.println("You are located at •");
+                System.out.println("You are located at x");
                 if (cheat == 1) {
-                    System.out.println("The Victim is located at ★");
+                    System.out.println("The Victim is located at o");
                 }
 
                 //Prints out map with coordinates and location of player (and victim if cheating)
@@ -93,9 +88,9 @@ public class Project6JamesClark {
                     System.out.print(i + " ");
                     for (int j = 0; j <= 9; j++) {
                         if (playerY == i && playerX == j) {
-                            System.out.print("• ");
+                            System.out.print("x ");
                         } else if (targetY == i && targetX == j && cheat == 1) {
-                            System.out.print("★ ");
+                            System.out.print("o ");
                         } else {
                             System.out.print("  ");
                         }

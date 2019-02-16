@@ -1,4 +1,4 @@
-package project7jamesclark;
+package CellularAutomation;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author James Clark
  * @version 11/14/16
  */
-public class Project7JamesClark {
+public class CellularAutomation {
 
     /**
      * 
@@ -21,11 +21,11 @@ public class Project7JamesClark {
         System.out.println("Welcome to the cellular automaton simulation!");
 
         //User input for amount of cells on the y-axis (80 maximum).
-        System.out.print("Please enter the number of cells (0 < Cells ≤ 80): ");
+        System.out.print("Please enter the number of cells (0 < Cells <= 80): ");
         int C = input.nextInt(); //Number of cells on y-axis.
         //Bound check
         while (C > 80 || C <= 0) {
-            System.out.print("Please re-enter the number of cells (0 < Cells ≤ 80): ");
+            System.out.print("Please re-enter the number of cells (0 < Cells <= 80): ");
             C = input.nextInt();
         }
 

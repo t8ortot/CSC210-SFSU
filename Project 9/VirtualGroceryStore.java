@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package project9jamesclark;
+package VirtualGroceryStore;
 
 import java.util.Scanner;
 
@@ -13,7 +8,7 @@ import java.util.Scanner;
  * @author James Clark
  * @version 12/11/2016
  */
-public class Project9JamesClark {
+public class VirtualGroceryStore {
 
     /**
      *

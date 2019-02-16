@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package project10jamesclark;
+package BookSearchEngine;
 import java.util.Scanner;
 import java.io.File;
 
@@ -13,7 +8,7 @@ import java.io.File;
  * @author James Clark
  * @version 12/15/16
  */
-public class Project10JamesClark {
+public class BookSearchEngine {
 
     /**
      * @param args the command line arguments
