@@ -1,4 +1,4 @@
-package project1.jamesclark;
+package HeartRateCalculator;
 
 import java.util.Scanner;
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Jimmy
+ * @author James Clark
  */
 public class ConwayGameofLife {
 

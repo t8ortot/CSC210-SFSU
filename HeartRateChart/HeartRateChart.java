@@ -1,4 +1,4 @@
-package jamesclarkproject3;
+package HeartRateChart;
 
 /**
  * Creates a chart that marks all age and heart rate combinations that are in

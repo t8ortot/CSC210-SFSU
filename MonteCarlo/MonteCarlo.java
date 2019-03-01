@@ -1,4 +1,4 @@
-package project5.pkg5jamesclark;
+package MonteCarlo;
 
 /**
  * Calculates an approximate value of pi.

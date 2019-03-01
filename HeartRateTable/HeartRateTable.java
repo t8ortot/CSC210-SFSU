@@ -1,4 +1,4 @@
-package jamesclarkproject2;
+package HeartRateTable;
 
 import java.util.Scanner;
 
