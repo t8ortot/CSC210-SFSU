@@ -1,4 +1,4 @@
-# Project 3
+# HeartRateChart
 
 This program is supposed to calculate a target heart rate range, between 50% and 85% of the maximum heart rate, given the age.
 

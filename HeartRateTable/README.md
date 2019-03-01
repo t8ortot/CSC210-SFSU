@@ -1,4 +1,4 @@
-# Project 2
+# HeartRateTable
 
 This program is meant to print a range of target and maximum heart rates, depending on age, in a table.
 

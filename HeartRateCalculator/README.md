@@ -1,6 +1,6 @@
-# Project 1
+# HeartRateCalculator
 
-In this project, we had to create a program that calculates whether the user's heart rate is above or below their maximum.
+A program that calculates whether the user's heart rate is above or below their maximum.
 
 The program prompts the user to enter their age and current heart rate.
 
