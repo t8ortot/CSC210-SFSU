@@ -1,5 +1,3 @@
-package CellularAutomation;
-
 import java.util.Scanner;
 
 /**
@@ -12,7 +10,9 @@ public class CellularAutomation {
 
     /**
      * 
-     * @param args 
+     * @param C number of cells on the y-axis
+     * @param N number of time steps on the x-axis
+     * @param index user specified index to start pattern
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

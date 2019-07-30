@@ -1,5 +1,3 @@
-package MonteCarlo;
-
 /**
  * Calculates an approximate value of pi.
  *
@@ -9,7 +7,9 @@ package MonteCarlo;
 public class MonteCarlo {
 
     public static void main(String[] args) {
+        // number of throws
         final int N = 5000;
+        // hit counter
         int numInside = 0;
         double currX, currY, radius, myPi;
 

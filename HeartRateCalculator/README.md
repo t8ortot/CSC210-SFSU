@@ -1,9 +1,14 @@
 # HeartRateCalculator
 
-A program that calculates whether the user's heart rate is above or below their maximum.
+A program that determines whether the user's heart rate is above or below their calculated maximum.
 
-The program prompts the user to enter their age and current heart rate.
+Learned how to use java I/O and if-else statements.
 
-Then the maximum heartrate is calculated like so: (max = 220 - age).
+How to run (assuming inside HeartRateCalculator directory):
+- javac HeartRateCalculator.java
+- java HeartRateCalculator
 
-Then the program evaluates and returns whether the user's heart rate is above, below, or equal to their calculated maximum heart rate.
+How to use:
+- The program prompts the user to enter their age and current heart rate.
+- Then the maximum heartrate is calculated like so: (max = 220 - age).
+- Then the program evaluates and outputs to console whether the user's heart rate is above, below, or equal to their calculated maximum heart rate.

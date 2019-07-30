@@ -1,5 +1,3 @@
-package VampireHunt;
-
 import java.util.Scanner;
 
 /**
@@ -11,7 +9,9 @@ import java.util.Scanner;
 public class VampireHunt {
 
     /**
-     * @param args the command line arguments
+     * @param cheat player's input for whether they would like to cheat or not
+     * @param playerX player's guess for X-coordinate
+     * @param playerY player's guess for Y-coordinate
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

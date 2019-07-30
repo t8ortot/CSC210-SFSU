@@ -1,9 +1,7 @@
-package HeartRateTable;
-
 import java.util.Scanner;
 
 /**
- * Calculates the Beats Per Minute between an Upper and Lower bound for a list
+ * Calculates the beats per minute (BPM) between an upper and lower bound for a list
  * ages.
  *
  * @author James Clark
@@ -12,7 +10,8 @@ import java.util.Scanner;
 public class HeartRateTable {
 
     /**
-     * @param args the command line arguments
+     * @param lower The lower percentage of the target range.
+     * @param upper The upper percentage of the target range.
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -1,5 +1,3 @@
-package helloworldapp;
-
 /**
  * @author James Clark
  */

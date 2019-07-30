@@ -1,25 +1,33 @@
-package ConwayGameofLife;
-
 import java.util.Scanner;
 
 /**
+ * A Java implementation of Conway's Game of Life cellular automation.
+ *
+ * Conway's Rules to Game of Life:
+ * - If a cell that is “populated” has <= 1 neighbor, or >= 4 neighbors, it dies. Otherwise, it survives. 
+ * - If an "unpopulated" cell has exactly 3 neighbors, it becomes populated.
+ * - Cells on the edge always remain unpopulated (0).
  *
  * @author James Clark
  */
 public class ConwayGameofLife {
 
     /**
-     *
-     * @param args
+     * @param x An x-coordinate specified by the user
+     * @param y An y-coordinate specified by the user
+     * @param n number of timesteps to run the game for.
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        //game area
         int grid[][] = new int[10][10];
         System.out.println("Please enter list of (x,y) pairs (both 0 < value < 9)");
         System.out.print("for populated cells (enter a negative x or y to quit): ");
+        //xy-coordinate pair
         int x = input.nextInt();
         int y = input.nextInt();
 
+        //validity check and store.
         while (x >= 0 && y >= 0) {
             while (x >= 9 || x == 0) {
                 System.out.println("Sorry, your x-value must be between 0 and 9.");
@@ -31,6 +39,8 @@ public class ConwayGameofLife {
                 System.out.print("Please re-enter y-value: ");
                 y = input.nextInt();
             }
+
+            //stores a 1 at the coordniate.
             grid[x][y] = 1;
 
             x = input.nextInt();
@@ -39,12 +49,14 @@ public class ConwayGameofLife {
 
         System.out.print("Please enter the number of timesteps (0 < steps <= 20): ");
         int n = input.nextInt();
+        //validity check
         while (n <= 0 || n > 20) {
             System.out.println("Sorry, the number of time steps you selected is invalid.");
             System.out.print("Please enter a different number of time steps (0 < steps <= 20): ");
             n = input.nextInt();
         }
 
+        //prints output
         for (int i = 0; i <= n; i++) {
             if (i == 0) {
                 System.out.println("Initial Grid");
@@ -57,6 +69,9 @@ public class ConwayGameofLife {
         }
     }
 
+    /**
+    * @param grid the game grid array to be printed
+    */
     public static void displayGrid(int[][] grid) {
         for (int l = 0; l <= 9; l++) {
             System.out.print(l);
@@ -75,6 +90,9 @@ public class ConwayGameofLife {
         }
     }
 
+    /**
+    * @param grid the game grid to be updated
+    */
     public static void updateGrid(int[][] grid) {
         int neighbors;
         int temp[][] = new int[10][10];

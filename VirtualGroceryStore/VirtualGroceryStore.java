@@ -1,5 +1,3 @@
-package VirtualGroceryStore;
-
 import java.util.Scanner;
 
 /**

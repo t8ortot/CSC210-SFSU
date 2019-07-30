@@ -1,5 +1,3 @@
-package HeartRateCalculator;
-
 import java.util.Scanner;
 
 /**

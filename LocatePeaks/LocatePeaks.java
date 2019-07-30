@@ -1,5 +1,3 @@
-package LocatePeaks;
-
 /**
  * Finds the peaks (above average values) from a list of values and then
  * rearranges them into increasing order.
@@ -9,9 +7,6 @@ package LocatePeaks;
  */
 public class LocatePeaks {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
         //initialize the given values

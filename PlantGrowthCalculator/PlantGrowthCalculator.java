@@ -1,9 +1,7 @@
-package PlantGrowthCalculator;
-
 import java.util.Scanner;
 
 /**
- *Takes a user input for the highest and lowest temperatures for their plant and
+ * Takes a user input for the highest and lowest temperatures for their plant and
  * the minimal amount of rainfall for the plant, then predicts the height and
  * new growth for each month based on average temperatures and rainfall for the
  * corresponding months.
@@ -14,7 +12,9 @@ import java.util.Scanner;
 public class PlantGrowthCalculator {
 
     /**
-     *
+     * @param minTemp minimum temperature for the plant
+     * @param maxTemp maximum temperature for the plant
+     * @param minRain Miniumum amount for required rainfall
      */
     public static void main(String[] args) {
 
@@ -27,7 +27,7 @@ public class PlantGrowthCalculator {
         Scanner input = new Scanner(System.in);
 
         // Welcome meesage to match formatting of example.
-        System.out.println("Welcome to the 210 gardening planner!");
+        System.out.println("Welcome to the gardening planner!");
 
         //User input for the minTemp
         System.out.print("Please enter minimum temperature for plant: ");

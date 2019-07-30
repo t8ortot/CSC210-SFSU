@@ -1,4 +1,3 @@
-package BookSearchEngine;
 import java.util.Scanner;
 import java.io.File;
 
